@@ -1,4 +1,6 @@
-for _ in range(int(9/2)):
+n = int(input("Enter the stars number: "))
+
+for _ in range(int(n/2)):
     print("x", end="")
     print(" ", end="")
     print("*", end="")
