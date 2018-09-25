@@ -1,0 +1,21 @@
+1. What is Boolean? 
+- A Boolean value is either true or false.
+
+Write down 3 different expression that results a Boolean type (i.e. 5 == 6)
+
+>>>5 <= 6
+True
+>>>"hello" + "world" = "hello world"
+True
+>>>10 > (10 + 1)
+False
+
+2. What is a flow chart? Draw flow chart for the following code snippet: (you can draw on a paper, take a picture of it)
+- A flow chart is a diagram which consists of different steps presenting the sequence of movements or things involved in a complex system or activity.
+
+3. What is nested conditionals? Write a piece of code that uses nested conditionals
+- A nested conditional appears when there is a condition inside another one.
+e.g:
+1. if age < 11:
+2.	if age > 5:
+3.		print("Primary school")
