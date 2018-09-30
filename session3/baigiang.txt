@@ -1,0 +1,45 @@
+1. warmup.py:
+"1989" (int()) = oke
+"asd" => false
+- Validate User Input?
+- Re-enter
+
+- hàm ".isdigit()" = ktra xem hàm có ph?i là s? hay không?
+=> hàm boolean
+e.g: yob = int(input("Enter a number: ")
+1. N?u nh?p s? => True
+2. N?u nh?p ch? => False
+(Có th? d?ng sau hàm if)
+
+- Refactor => làm cho code tr? nên d? d?c và d? s?a d?i nhg không thay d?i n?i dung code
+
+2. while_intro.py:
+- Vòng l?p v?i s? l?n l?p chua xác d?nh: "WHILE" - Infinite loop
+Ctrl C = thoát ra kh?i vòng l?p
+while True: => ch?y liên t?c
+while False: => không ch?y l?n nào => hàm vô d?ng
+
+Loop_counter: d?m s? vòng l?p (count)
+loop_counter = 0 => khi vòng l?p chua ch?y thì s? vòng l?p là b?ng 0
+ - "break" tác d?ng vào vòng l?p phía trên g?n nh?t
+Ngo?c don ' ' và ngo?c kép " " có ch?c nang nhu nhau
+
+3. menu.py:
+- Nh?ng dòng code mà không s?a du?c tr?c ti?p: not scalable
+=> hàm "list"
+dùng cho homogenous items, infinite
+Operations:
+- CRUD? Create Read Update Delete
+* C - Create: Add more items to menu
+* R - Read: Allow users to see the data without changing it
+* U - Update: change an item's content
+* D - Delete: Remove an item from the menu
+List thu?ng có thêm 's' => báo hi?u phía sau là list
+
+Trong append must be a data of any type
+Index and most of the program language counts from 0 and python allows coder to run around (e.g: 0 1 2 -1 -2 -3) and allow only 2 times => the last element: [-1]
+- new line: "\n"
+
+4. delete.py:
+- Delete theo location: fill in the location of the element that you want to delete
+- Delete theo content: fill in the exact content of the element that you want to delete
