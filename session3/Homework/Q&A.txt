@@ -1,0 +1,8 @@
+1. What is nested list?
+A list is called "nested" when it is contained inside another list.
+
+2. Can a list store both integers and strings in it?
+Yes, the elements of the list do not have to be the same type.
+It can contain different types such as a string, a float, an integer or even another list inside it.
+e.g: 
+hoa = ["skinny", "short", 18, ["German", "English"]]
