@@ -10,3 +10,4 @@ print(". Let's shear it")
 
 #2.3
 index = sizes.index(max(sizes))
+print(index)
