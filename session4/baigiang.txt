@@ -1,0 +1,44 @@
+* Warm up
+
+* Why dictionary?
+sometimes ppl have to use dict but not list because the items in dict are related together but inhomogenous.
+
+* Dictionary Operations
+- Initialize:
+Use {} => class(dict)
+key: value
+e.g: "name": "Hoa"
+
+KEY & VALUE Begriff:
+
+- CRUD:
+1. Create:
+Unordered: dict do not care about the order cuz ppl dont use position to enter it but key to open it
+=> add information to the end of the list
+
+2. Read:
+"in" to check whether an information is contained in a list
+(if key not in pokemon => print("Error!")
+
+3. Update:
+it's the same w/ other 
+
+4. Delete:
+Add into a an information. When want to delete a => del a
+
+input: "type, electric" => slip into 2 parts
+
+* Dictionary & For:
+1. for k(v) in person.keys(values)():
+	print(k/v, person[k])
+2. for k,v in person.items():
+	print(k, v)
+* Dictionary and List:
+Wenn die datei sind sehr kompliziert => man muss beide Dict und List kombinieren.
+1. List of Dicts:
+2. List inside Dict:
+3. Combination:
+
+
+
+* Dictionary nad
