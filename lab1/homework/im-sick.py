@@ -15,8 +15,15 @@ reason_list = ["I have fallen from the stairs, which caused me a broken leg", "I
 html_content = html_template.replace("{{reason}}", choice(reason_list))
 msg = Message("Hello boss", to = "hoa.hlp00@gmail.com", html = html_content)
 
-import datetime
-now = datetime.datetime.now()
 
-if now.hour > 7:
-    gmail.send(msg)
+import datetime
+set_time = 7
+loop_counter = 0
+while True:
+    now = datetime.datetime.now()
+
+    if now.hour == set_time:
+        loop_counter += 1
+        if loop_counter == 1:
+            gmail.send(msg)
+        loop_counter = 0

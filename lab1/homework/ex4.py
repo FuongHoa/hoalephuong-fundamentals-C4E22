@@ -17,11 +17,6 @@ print("word_of_mouth: {}".format(word_of_mouth))
 
 from matplotlib import pyplot
 
-ref = {
-    "events": 0,
-    "advertisements": 0,
-    "word_of_mouth": 0,
-}
 #prepare data
 ref_counts = (ref["events"], ref["advertisements"], ref["word_of_mouth"])
 
